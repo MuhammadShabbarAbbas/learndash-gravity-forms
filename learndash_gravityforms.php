@@ -7,7 +7,7 @@
 Plugin Name: LearnDash LMS - GravityForms Integration
 Plugin URI: http://www.learndash.com
 Description: LearnDash LMS - GravityForms Integration 
-Version: 2.1.2
+Version: 2.1.2.1
 Author: LearnDash
 Author URI: http://www.learndash.com
 Text Domain: learndash-gravity-forms

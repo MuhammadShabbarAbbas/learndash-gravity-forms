@@ -43,6 +43,9 @@ Alternatively, you always have the option to update manually. Please note, a ful
 
 == Changelog ==
 
+= 2.1.2.1 =
+* Fixed user not being enrolled when in update feed - without email
+
 = 2.1.2 =
 
 * Added ability to assign a LearnDash group
