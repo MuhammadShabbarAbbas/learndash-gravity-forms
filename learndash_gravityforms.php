@@ -430,7 +430,15 @@ class learndash_gravityforms {
 				if ( $user ) {
 					$user_id = $user->ID;
 				} else {
-                    continue;
+                    //continue;
+                    //updated by shabbar to fix update bundle error
+                    if($feed['meta']['feedType'] == 'update' && is_user_logged_in())
+                    {
+                        $user_id = get_current_user_ID();
+                    }
+                    else{
+                        continue;
+                    }
 				}
 
 				// Enroll users from field LearnDash options
